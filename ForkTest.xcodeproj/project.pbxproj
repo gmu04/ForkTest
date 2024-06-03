@@ -51,10 +51,8 @@
 		F718B4632C0DE08F00BFF157 /* ForkTest */ = {
 			isa = PBXGroup;
 			children = (
-				F718B4642C0DE08F00BFF157 /* ForkTestApp.swift */,
-				F718B4662C0DE08F00BFF157 /* ContentView.swift */,
-				F718B4682C0DE09300BFF157 /* Assets.xcassets */,
-				F718B46A2C0DE09300BFF157 /* Preview Content */,
+				F718B4732C0DE17900BFF157 /* App */,
+				F718B4722C0DE17500BFF157 /* Views */,
 			);
 			path = ForkTest;
 			sourceTree = "<group>";
@@ -65,6 +63,24 @@
 				F718B46B2C0DE09300BFF157 /* Preview Assets.xcassets */,
 			);
 			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		F718B4722C0DE17500BFF157 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				F718B4662C0DE08F00BFF157 /* ContentView.swift */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		F718B4732C0DE17900BFF157 /* App */ = {
+			isa = PBXGroup;
+			children = (
+				F718B4642C0DE08F00BFF157 /* ForkTestApp.swift */,
+				F718B4682C0DE09300BFF157 /* Assets.xcassets */,
+				F718B46A2C0DE09300BFF157 /* Preview Content */,
+			);
+			name = App;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
